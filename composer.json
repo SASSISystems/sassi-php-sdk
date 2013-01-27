@@ -1,0 +1,22 @@
+{
+    "name": "SASSISystems/sassi-php-sdk",
+    "description": "SASSI Systems PHP SDK",
+    "keywords": ["sassi", "sdk"],
+    "type": "library",
+    "homepage": "https://github.com/sassisystems/sassi-php-sdk",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "SASSI Systems",
+            "homepage": "https://github.com/sassisystems/sassi-php-sdk/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["lib"]
+    }
+}
